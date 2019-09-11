@@ -92,10 +92,11 @@ code {
 .Specials {
   display: grid;
   grid-template-columns: auto auto auto;
-  column-gap: .8rem;
+  column-gap: .9rem;
   width: 60%;
   height: 65px;
-  margin-left: 3%;
+  margin-left: 2%;
+  margin-right: 0%;
   justify-self: start;
   grid-row-start: 3;
   grid-row-end: 3;
@@ -112,4 +113,5 @@ code {
   font-size: 1.5rem;
   font-weight: bold;
   border-style: none;
+  
 }
