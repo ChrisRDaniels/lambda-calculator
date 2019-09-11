@@ -1,5 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 
 const Display = () => {
-  return <div className="display">{/* Display any props data here */}</div>;
+  const [math, calcMath] = useState(12345);
+
+  return <div className="display">
+  {math}</div>;
 };
+
+export default Display;
