@@ -56,10 +56,11 @@ code {
   font-size: 1.5rem;
   font-weight: bold;
   margin-left: 3%;
+  border-style: none;
 }
 
 .Numbers .number_button:nth-child(10) {
-  border-radius: 15%;
+  border-radius: 50%;
   height: 65px;
   width: 150px;
   box-shadow: 1px 2px 2px 1px black;
@@ -85,7 +86,7 @@ code {
   color: white;
   font-size: 1.5rem;
   font-weight: bold;
-
+  border-style: none;
 }
 
 .Specials {
@@ -93,7 +94,7 @@ code {
   grid-template-columns: auto auto auto;
   column-gap: .8rem;
   width: 60%;
-  height: 70px;
+  height: 65px;
   margin-left: 3%;
   justify-self: start;
   grid-row-start: 3;
@@ -110,4 +111,5 @@ code {
   color: white;
   font-size: 1.5rem;
   font-weight: bold;
+  border-style: none;
 }
